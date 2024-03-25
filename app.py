@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from tensorflow import keras
-import streamlit
+import streamlit as st
 
 # Step 1: Preparing the Training Data
 train_data = [
@@ -47,7 +47,6 @@ train_sequences = keras.preprocessing.sequence.pad_sequences(train_sequences)
 model = keras.models.Sequential()
 
 model.add(keras.layers.Embedding(len(tokenizer.word_index) + 1, 100, input_length=train_sequences.shape[1]))
-#model.add(keras.layers.Embedding(len(tokenizer.word_index) + 1, 100))
 model.add(keras.layers.Flatten())
 model.add(keras.layers.Dense(64, activation='relu'))
 model.add(keras.layers.Dense(len(train_labels), activation='softmax'))
@@ -64,8 +63,10 @@ def generate_response(text):
     response = label_encoder.inverse_transform([predicted_label])[0]
     return response
 
-# Interaction Loop
-while True:
-    user_input = input("Enter a message: ")
+# Streamlit UI
+st.title("Simple Chatbot")
+
+user_input = st.text_input("Enter a message:")
+if user_input:
     response = generate_response(user_input)
-    streamlit.write("ChatBot: ", response)
+    st.write("ChatBot:", response)
