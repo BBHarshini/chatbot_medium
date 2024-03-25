@@ -46,7 +46,7 @@ train_sequences = keras.preprocessing.sequence.pad_sequences(train_sequences)
 # Step 3: Building and Training the Chatbot Model
 model = keras.models.Sequential()
 
-model.add(keras.layers.Embedding(len(tokenizer.word_index) + 1, 100)
+model.add(keras.layers.Embedding(len(tokenizer.word_index) + 1, 100))
 model.add(keras.layers.Flatten())
 model.add(keras.layers.Dense(64, activation='relu'))
 model.add(keras.layers.Dense(len(train_labels), activation='softmax'))
