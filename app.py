@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from tensorflow import keras
+import streamlit
 
 # Step 1: Preparing the Training Data
 train_data = [
@@ -66,4 +67,4 @@ def generate_response(text):
 while True:
     user_input = input("Enter a message: ")
     response = generate_response(user_input)
-    print("ChatBot: ", response)
+    streamlit.write("ChatBot: ", response)
