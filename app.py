@@ -166,7 +166,7 @@ train_data = [
 ]
 
 
-test_data = [
+train_labels= [
     "Hi, how are you today?",
     "What's your favorite color?",
     "Do you enjoy reading?",
