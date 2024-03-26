@@ -7,6 +7,7 @@ import streamlit as st
 train_data = [
     "Hello",
     "How are you?",
+    "good",
     "Good morning",
     "Good evening",
     "Nice to meet you",
@@ -16,12 +17,14 @@ train_data = [
     "Good afternoon",
     "How can I assist you?",
     "Pleasure to see you",
-    "Is there anything I can help with?"
+    "Is there anything I can help with?",
+    "you know maths?"
 ]
 
 train_labels = [
     "Hi",
     "I'm fine, how about you?",
+    "good to here",
     "Good morning to you",
     "Good evening, how can I help you?",
     "Nice to meet you too",
@@ -32,6 +35,7 @@ train_labels = [
     "I'm here to assist you",
     "Likewise!",
     "Yes, I have a question"
+    "no",
 ]
 
 # Step 2: Data Preprocessing
