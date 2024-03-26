@@ -313,7 +313,7 @@ test_data = [
     "What's your favorite type of food to order takeout?",
     "Do you enjoy going to the aquarium?",
     "What's your opinion on the power of perseverance?",
-    "Tell me about a time you achieved something against all
+    "Tell me about a time you achieved something against all"
 ]
 
 
