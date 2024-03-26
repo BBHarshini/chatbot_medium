@@ -34,7 +34,7 @@ train_labels = [
     "Good afternoon to you too",
     "I'm here to assist you",
     "Likewise!",
-    "Yes, I have a question"
+    "Yes, I have a question",
     "no",
 ]
 
