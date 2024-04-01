@@ -67,6 +67,37 @@ train_labels = [
     "I spend my time chatting with users like you!",
     "Being a helpful chatbot is my dream job!",
 ]
+# Additional training data
+additional_train_data = [
+    "Hey there!",
+    "How's it going?",
+    "I'm doing well, thank you",
+    "Good to see you",
+    "What's new?",
+    "I'm just chilling",
+    "Any plans for the weekend?",
+    "Not much happening here",
+    "How's work/school?",
+    "Nice weather we're having",
+]
+
+# Additional training labels corresponding to the new training data
+additional_train_labels = [
+    "Hey!",
+    "It's going great, thanks for asking!",
+    "That's good to hear",
+    "Good to see you too!",
+    "Not much, just the usual",
+    "Same here",
+    "Not really, just relaxing",
+    "Same here, quiet day",
+    "It's going well, thanks for asking",
+    "Yes, it's lovely outside",
+]
+
+# Append additional training data and labels to the existing ones
+train_data.extend(additional_train_data)
+train_labels.extend(additional_train_labels)
 
 
 
