@@ -39,8 +39,8 @@ train_data = [
     "who is you friend",
     "what work do you do",
     "how old are you",
-    "whats your name?"
-   " hi, how are you doing?",
+    "whats your name?",
+   "hi, how are you doing?",
        "i'm fine. how about yourself?",
        "i'm pretty good. thanks for asking.",
        "no problem. so how have you been?",
