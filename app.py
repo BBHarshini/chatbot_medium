@@ -38,7 +38,8 @@ train_data = [
     "how was day?",
     "who is you friend",
     "what work do you do",
-    "how old are you"
+    "how old are you",
+    "whats your name?"
 ]
 
 train_labels = [
@@ -75,7 +76,8 @@ train_labels = [
     "good",
     "i dont have friends",
     " i answer people's question",
-    "i dont have age"
+    "i dont have age",
+    "i am a chatbot"
 ]
 # Additional training data
 additional_train_data = [
