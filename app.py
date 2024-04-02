@@ -40,6 +40,18 @@ train_data = [
     "what work do you do",
     "how old are you",
     "whats your name?"
+   " hi, how are you doing?",
+       "i'm fine. how about yourself?",
+       "i'm pretty good. thanks for asking.",
+       "no problem. so how have you been?",
+       "i've been great. what about you?",
+    "i've been good. i'm in school right now.",
+    "what school do you go to?",
+    "i go to pcc.",
+    "do you like it there?",
+    "it's okay. it's a really big campus.",
+    "good luck with school.",
+    "how's it going?"
 ]
 
 train_labels = [
@@ -77,7 +89,19 @@ train_labels = [
     "i dont have friends",
     " i answer people's question",
     "i dont have age",
-    "i am a chatbot"
+    "i am a chatbot",
+    "i'm fine. how about yourself?",
+    "i'm pretty good. thanks for asking.",
+    "no problem. so how have you been?",
+    "i've been great. what about you?",
+    "i've been good. i'm in school right now.",
+    "what school do you go to?",
+    "i go to pcc.",
+    "do you like it there?",
+    "it's okay. it's a really big campus.",
+    "good luck with school.",
+    "thank you very much.",
+    "i'm doing well. how about you?"
 ]
 # Additional training data
 additional_train_data = [
