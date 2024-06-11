@@ -51,7 +51,8 @@ train_data = [
     "do you like it there?",
     "it's okay. it's a really big campus.",
     "good luck with school.",
-    "how's it going?"
+    "how's it going?",
+    "how many friends do you have",
 ]
 
 train_labels = [
@@ -101,7 +102,8 @@ train_labels = [
     "it's okay. it's a really big campus.",
     "good luck with school.",
     "thank you very much.",
-    "i'm doing well. how about you?"
+    "i'm doing well. how about you?",
+    "i dont have any friends",
 ]
 # Additional training data
 additional_train_data = [
