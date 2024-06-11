@@ -59,6 +59,9 @@ train_data = [
     "who is your favorite actor",
     "do you have emotions",
     "Ok bye take care",
+    "bye",
+    "see you",
+    "talk to you later",
 ]
 
 train_labels = [
@@ -116,6 +119,9 @@ train_labels = [
     "i have none",
     "no i dont",
     "Ok bye",
+    "bye",
+    "see you",
+    "talk to you later",
 ]
 # Additional training data
 additional_train_data = [
