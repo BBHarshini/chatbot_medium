@@ -56,7 +56,7 @@ train_data = [
     "Good night",
     "how is your health?",
     "what have you studied",
-    "who is your fav actor",
+    "who is your favorite actor",
     "do you have emotions",
 ]
 
