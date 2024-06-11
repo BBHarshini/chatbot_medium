@@ -53,6 +53,11 @@ train_data = [
     "good luck with school.",
     "how's it going?",
     "how many friends do you have",
+    "Good night",
+    "how is your health?",
+    "what have you studied",
+    "who is your fav actor",
+    "do you have emotions",
 ]
 
 train_labels = [
@@ -104,6 +109,11 @@ train_labels = [
     "thank you very much.",
     "i'm doing well. how about you?",
     "i dont have any friends",
+    "good night",
+    "good",
+    "nothing much",
+    "i have none",
+    "no i dont",
 ]
 # Additional training data
 additional_train_data = [
