@@ -58,6 +58,7 @@ train_data = [
     "what have you studied",
     "who is your favorite actor",
     "do you have emotions",
+    "Ok bye take care",
 ]
 
 train_labels = [
@@ -114,6 +115,7 @@ train_labels = [
     "nothing much",
     "i have none",
     "no i dont",
+    "Ok bye",
 ]
 # Additional training data
 additional_train_data = [
